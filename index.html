@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Chat Bot</title>
-    <link rel="shortcut icon" href="https://cdn-icons.flaticon.com/png/512/2453/premium/2453703.png?token=exp=1646478142~hmac=ef3d23811c9d4f6332dc858173f1e20e" type="image/x-icon">
+    <link rel="shortcut icon" href="https://img.icons8.com/external-itim2101-lineal-color-itim2101/64/000000/external-brain-education-and-learning-itim2101-lineal-color-itim2101.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css"
 </head>
@@ -54,26 +54,13 @@
                 <!--Message Container-->
                 <div class="outer-container">
                     <div class="chat-container">
-                        <!-- Messages -->
-                        <div id="chatbox">
-                            <h5 id="chat-timestamp"></h5>
-                            <p id="botStarterMessage" class="botText"><span>Hi, I'm your mental health friend.<br>I can help you boost your physical, social and mental health with suggestions.<br>How are you feeling today?</span></p>
-                        </div>
-
                         <!-- User input box -->
-                        <div class="chat-bar-input-block">
-                            <div id="userInput">
-                                <input id="textInput" class="input-box" type="text" name="msg"
-                                    placeholder="Tap 'Enter here' to send a message">
-                                <p></p>
+                        <div id="container" class="container">
+                            <div id="chat" class="chat">
+                                <div id="messages" class="messages"></div>
+                                <input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
                             </div>
-
-                            <div class="chat-bar-icons">
-                                <i id="chat-icon" style="color: rgb(220, 20, 20);" class="fa fa-fw fa-heart"
-                                    onclick="heartButton()"></i>
-                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
-                                    onclick="sendButton()"></i>
-                            </div>
+                        </div>
                         </div>
 
                         <div id="chat-bar-bottom">
@@ -91,6 +78,9 @@
  
 
     <script src="script.js"></script>
-    <script src="chatbox.js"></script> 
+    <script src="chatbox.js"></script>
+    <script type="text/javascript" src="index.js" ></script>
+    <script type="text/javascript" src="constants.js" ></script>
+    <script type="text/javascript" src="speech.js" ></script>
 </body>
 </html>
