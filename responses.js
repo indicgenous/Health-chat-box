@@ -30,9 +30,7 @@ function getBotResponse(input) {
     }
     if (input=="joke"){
         return "Why did the hipster burn his mouth? He drank the coffee before it was cool."||
-        "What did the buffalo say when his son left for college? Bison."
+       "What did the buffalo say when his son left for college? Bison."
     }
-    if ("I think I have depression"){
-        return "Depression is something a lot of people experience. You are not alone! Depression can happen when our brain is low on the hormones dopamine, serotonin, oxytocin, and endorphin. But don't worry! I can teach you how to boost them so you feel better! Which one do you want to start with?";
-    }
+    
 }
