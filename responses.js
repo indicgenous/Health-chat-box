@@ -11,7 +11,7 @@ function getBotResponse(input) {
 
     // Simple responses
     if (input == "hello") {
-        return "Hey there,I am your mental health friend. How can I help you today?";
+        return "Hey there,I am Blahaj your mental health friend. How can I help you today?";
     } 
     
     if (input == "goodbye") {
